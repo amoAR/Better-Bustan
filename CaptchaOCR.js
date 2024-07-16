@@ -38,7 +38,7 @@ captchaImg.onload = function () {
     //Prepare form data
     var formData = new FormData();
     formData.append("base64Image", base64Img);
-    formData.append("apikey", "0b95fb6f5b88957");
+    formData.append("apikey", "");
     formData.append("filetype", "PNG");
     formData.append("scale", false);
     formData.append("OCREngine", 2);
